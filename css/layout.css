@@ -47,6 +47,11 @@ body { background: #181d21; }
    opacity: 0;
 }
 
+img.resize{
+   max-width:50%;
+   max-height:50%;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -112,7 +117,7 @@ header .header-social li a:hover { color: #11ABB0; }
 #hero {
    padding-top: 66px;
 
-   background: #232920 url(../images/flowers2.jpg);
+   background: #232920 url(../images/bg.png);
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    overflow: hidden;
@@ -124,17 +129,17 @@ header .header-social li a:hover { color: #11ABB0; }
 (min-resolution: 192dpi) {
 
 	#hero { 
-		background: #23292f url(../images/flowers2.jpg); 
+		background: #23292f url(../images/bg.png); 
 		background-size: 200px 200px;
 	}
   
 }
 
-#hero .row { max-width: 600px; } /* default 1040px */
+#hero .row { max-width: 1040px; } /* default 1040px */
 
 /* Hero Text */
 .hero-text {
-	color: #fff; /* default #676e73 */
+	color: #000; /* default #676e73 */
    width: 83%;
    text-align: center;
   /* margin: 54px auto 24px auto; */
@@ -142,7 +147,7 @@ header .header-social li a:hover { color: #11ABB0; }
 }
 .hero-text h1 {
    font: 40px/1.2em 'montserrat-regular', sans-serif; 
-   color: #fff;
+   color: #000;
    padding: 0;
    margin: 0;
    text-shadow: 0px 1px 4px rgba(0, 0, 0, .2);
@@ -189,7 +194,7 @@ header .header-social li a:hover { color: #11ABB0; }
       -moz-animation-iteration-count: 3;  
 }
 #hero .buttons .trial:hover { background: #F86A5A; }
-#hero .buttons .learn-more {}
+#hero .buttons .learn-more:hover { background: #F86A5A;}
 
 
 
