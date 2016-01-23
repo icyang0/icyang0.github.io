@@ -178,7 +178,7 @@ header .header-social li a:hover { color: #11ABB0; }
    margin: 0 0 18px 0;
 }
 #hero .buttons .button {
-   font: 14px/24px 'montserrat-bold', sans-serif;
+   font: 25px/24px 'montserrat-bold', sans-serif;
    text-transform : uppercase;
    letter-spacing: 2px;
 }
@@ -195,6 +195,10 @@ header .header-social li a:hover { color: #11ABB0; }
 }
 #hero .buttons .trial:hover { background: #F86A5A; }
 #hero .buttons .learn-more:hover { background: #F86A5A;}
+#hero .buttons .li:hover { background: #3399ff;}
+#hero .buttons .gh:hover { background: #000000;}
+#hero .buttons .fb:hover { background: #0066ff;}
+
 
 
 
@@ -411,7 +415,7 @@ ul.features li:nth-child(even) { }
 
 /* overlay */
 .item .item-wrap .overlay {
-   position: absolute;
+   position: center;
    left: 0;
    top: 0;
    width: 100%;
