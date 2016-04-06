@@ -248,7 +248,8 @@ ul#nav li a {
    line-height: 38px;
 	text-decoration: none;
    text-align: left;
-   color: #58687A;
+   color: #fff;
+   /*color: #58687A;*/
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -256,9 +257,9 @@ ul#nav li a {
 	-ms-transition: color .2s ease-in-out;
 	transition: color .2s ease-in-out;
 }
-ul#nav li a:hover { color: #fff; }
+ul#nav li a:hover { color: #11ABB0; }
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #fff; }
+ul#nav li.current a { color: #11ABB0; }
 
 
 
